@@ -36,9 +36,6 @@ class Main extends Component {
                 <div>
                     <Menu toggleProject={this.toggleProject} />
                 </div>
-                <div className="m-10">
-                    =============================================
-                </div>
                 <div>{this.getProject(this.state.currentMode)}</div>
             </div>
         );

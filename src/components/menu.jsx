@@ -23,10 +23,10 @@ class Menu extends Component {
         return (
             <div className="p-10 bg-indigo-800">
                 <div className="text-lg">
-                    <Nav bsStyle="tabs" activeKey={this.state.key}>
+                    <Nav activeKey={this.state.key}>
                         {this.links.map((link) => (
                             <NavItem
-                                eventKey={link.key}
+                                key={link.key}
                                 title={link.name}
                                 onClick={() =>
                                     this.handleSelect(link.key, link.endpoint)
