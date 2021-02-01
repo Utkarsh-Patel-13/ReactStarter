@@ -1,0 +1,20 @@
+.person {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+.person img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--light-shadow);
+}
+.person h4 {
+    margin-bottom: 0.35rem;
+}
+.person p {
+    margin-bottom: 0;
+}
