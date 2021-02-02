@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Review from "./review";
+import Review from "./Review";
 
 import "./reviews.css";
 

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Loading from "./loading";
-import Tour from "./tour";
+import Loading from "./Loading";
+import Tour from "./Tour";
 import "./tours.css";
 
 const url = "https://course-api.com/react-tours-project";

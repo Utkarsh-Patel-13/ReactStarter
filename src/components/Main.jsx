@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 
-import Bday from "./birthday/bday";
-import Menu from "./menu";
-import Tours from "./tours/tours";
-import Reviews from "./reviews/reviews";
-import Accordion from "./accordion/accordian";
+import Bday from "./birthday/Bday";
+import Menu from "./Menu";
+import Tours from "./tours/Tours";
+import Reviews from "./reviews/Reviews";
+import Accordion from "./accordion/Accordian";
+import FoodMenu from "./foodmenu/FoodMenu";
 
 class Main extends Component {
     state = {};
@@ -24,6 +25,7 @@ class Main extends Component {
             tours: <Tours />,
             reviews: <Reviews />,
             accordion: <Accordion />,
+            foodmenu: <FoodMenu />,
         };
 
         return projects[currentMode];
