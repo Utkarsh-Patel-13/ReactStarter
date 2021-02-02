@@ -36,27 +36,31 @@ class Tours extends Component {
     render() {
         if (this.state.loading) {
             return (
-                <main className="p-2 containter m-10 rounded border bg-white text-black font-light">
+                <main className="p-2 m-10 rounded border bg-white text-black font-light">
                     <Loading />
                 </main>
             );
         }
         return (
-            <main className="p-2 containter m-10 font-light">
-                <div className="text-center m-5 font-bold text-lg">
-                    <h1>Tours List</h1>
-                </div>
-                {this.state.tours.map((tour) => {
-                    return <Tour tour={tour} removeTour={this.deleteTour} />;
-                })}
-                <button
-                    className="delete-btn font-semibold border border-red-400 p-3"
-                    onClick={() => {
-                        this.getData();
-                    }}
-                >
-                    Reset
-                </button>
+            <main className="p-2 m-10 font-light">
+                <section className="section">
+                    <div className="text-center m-5 font-bold text-lg">
+                        <h1>Tours List</h1>
+                    </div>
+                    {this.state.tours.map((tour) => {
+                        return (
+                            <Tour tour={tour} removeTour={this.deleteTour} />
+                        );
+                    })}
+                    <button
+                        className="delete-btn font-semibold border border-red-400 p-3"
+                        onClick={() => {
+                            this.getData();
+                        }}
+                    >
+                        Reset
+                    </button>
+                </section>
             </main>
         );
     }

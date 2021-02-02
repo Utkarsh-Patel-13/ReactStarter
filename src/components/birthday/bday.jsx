@@ -24,11 +24,11 @@ class Bday extends Component {
 
     render() {
         return (
-            <main className="p-2 containter m-10 rounded border bg-white text-black font-light">
-                <header className="underline text-center">
-                    <h4>Birthday Remainder</h4>
-                </header>
-                <section className="p-5 m-3">
+            <main className="p-2 m-10 rounded text-black font-light">
+                <section className="p-5 m-3 bg-white section">
+                    <header className="text-center font-bold">
+                        <h4>Birthday Remainder</h4>
+                    </header>
                     <h5 className="p-3 font-semibold">
                         {this.state.people.length} Birthdays Today
                     </h5>

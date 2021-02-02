@@ -12,6 +12,7 @@ class Menu extends Component {
     links = [
         { key: 1, name: "Bday", endpoint: "bday" },
         { key: 2, name: "Tours", endpoint: "tours" },
+        { key: 3, name: "Reviews", endpoint: "reviews" },
     ];
 
     handleSelect(key, projCategory) {

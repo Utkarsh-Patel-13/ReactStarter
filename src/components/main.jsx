@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Bday from "./birthday/bday";
 import Menu from "./menu";
 import Tours from "./tours/tours";
+import Reviews from "./reviews/reviews";
 
 class Main extends Component {
     state = {};
@@ -20,6 +21,7 @@ class Main extends Component {
         const projects = {
             bday: <Bday />,
             tours: <Tours />,
+            reviews: <Reviews />,
         };
 
         return projects[currentMode];

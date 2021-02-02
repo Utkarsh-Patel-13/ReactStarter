@@ -43,7 +43,7 @@
     display: block;
     width: 200px;
     margin: 1rem auto 0 auto;
-    color: var(--clr-red-dark);
+    color: var(--clr-black);
     letter-spacing: var(--spacing);
     background-color: orange;
     padding: 0.25rem 0.5rem;
