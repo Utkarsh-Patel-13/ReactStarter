@@ -70,7 +70,6 @@ main {
     max-width: 1170px;
     border-radius: 0.25rem;
     padding: 1.5rem 2rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 @media screen and (min-width: 992px) {
     .section {
