@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
     /* dark shades of primary color*/
     --clr-primary-1: hsl(205, 86%, 17%);
@@ -33,6 +29,8 @@
     --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
     --clr-green-light: hsl(125, 71%, 66%);
+    --clr-red-special: #b4345c;
+    --clr-grey-special: #eae6eb;
     --clr-black: #222;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
@@ -85,6 +83,7 @@ main {
     border-radius: 0.25rem;
     padding: 1.5rem 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    color: black;
 }
 
 .title {

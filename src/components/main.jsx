@@ -4,6 +4,7 @@ import Bday from "./birthday/bday";
 import Menu from "./menu";
 import Tours from "./tours/tours";
 import Reviews from "./reviews/reviews";
+import Accordion from "./accordion/accordian";
 
 class Main extends Component {
     state = {};
@@ -22,6 +23,7 @@ class Main extends Component {
             bday: <Bday />,
             tours: <Tours />,
             reviews: <Reviews />,
+            accordion: <Accordion />,
         };
 
         return projects[currentMode];
