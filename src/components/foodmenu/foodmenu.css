@@ -51,10 +51,11 @@
 .item-info header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.5px dotted var(--clr-grey-5);
+    border-bottom: 4px dotted var(--clr-grey-5);
 }
 .item-info h4 {
     margin-bottom: 0.5rem;
+    text-transform: capitalize;
 }
 .menu-price {
     color: var(--clr-gold);
