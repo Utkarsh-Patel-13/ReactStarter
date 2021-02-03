@@ -15,6 +15,7 @@ class Menu extends Component {
         { key: 3, name: "Reviews", endpoint: "reviews" },
         { key: 4, name: "Accordion", endpoint: "accordion" },
         { key: 5, name: "FoodMenu", endpoint: "foodmenu" },
+        { key: 6, name: "Tabs", endpoint: "tabs" },
     ];
 
     handleSelect(key, projCategory) {

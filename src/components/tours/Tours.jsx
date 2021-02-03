@@ -47,9 +47,13 @@ class Tours extends Component {
                     <div className="text-center m-5 font-bold text-lg">
                         <h1>Tours List</h1>
                     </div>
-                    {this.state.tours.map((tour) => {
+                    {this.state.tours.map((tour, index) => {
                         return (
-                            <Tour tour={tour} removeTour={this.deleteTour} />
+                            <Tour
+                                key={index}
+                                tour={tour}
+                                removeTour={this.deleteTour}
+                            />
                         );
                     })}
                     <button

@@ -6,6 +6,7 @@ import Tours from "./tours/Tours";
 import Reviews from "./reviews/Reviews";
 import Accordion from "./accordion/Accordian";
 import FoodMenu from "./foodmenu/FoodMenu";
+import Tabs from "./tabs/Tabs";
 
 class Main extends Component {
     state = {};
@@ -26,6 +27,7 @@ class Main extends Component {
             reviews: <Reviews />,
             accordion: <Accordion />,
             foodmenu: <FoodMenu />,
+            tabs: <Tabs />,
         };
 
         return projects[currentMode];
