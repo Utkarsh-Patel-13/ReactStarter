@@ -12,7 +12,7 @@ class Accordion extends Component {
         return (
             <main>
                 <div className="container">
-                    <h4 className="font-bold m-4 ml-2 mb-8">
+                    <h4 className="font-extrabold m-4 ml-2 mb-8">
                         Questions And Answers About Login
                     </h4>
                     <section className="info">

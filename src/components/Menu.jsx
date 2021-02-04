@@ -16,6 +16,7 @@ class Menu extends Component {
         { key: 4, name: "Accordion", endpoint: "accordion" },
         { key: 5, name: "FoodMenu", endpoint: "foodmenu" },
         { key: 6, name: "Tabs", endpoint: "tabs" },
+        // { key: 7, name: "Slider", endpoint: "slider" },
     ];
 
     handleSelect(key, projCategory) {
@@ -36,7 +37,7 @@ class Menu extends Component {
                                     this.handleSelect(link.key, link.endpoint)
                                 }
                             >
-                                {link.name}
+                                <button>{link.name}</button>
                             </NavItem>
                         ))}
                     </Nav>

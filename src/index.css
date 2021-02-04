@@ -60,11 +60,12 @@ main {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 .section {
-    width: 50vw;
+    width: 60vw;
+    min-width: 45vw;
     margin: 5rem 0;
     max-width: 1170px;
     border-radius: 0.25rem;
@@ -79,12 +80,15 @@ main {
 .container {
     width: 70vw;
     margin: 5rem 0;
-    max-width: 450px;
+    max-width: 45vw;
     background: #fff;
     border-radius: 0.25rem;
     padding: 1.5rem 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     color: black;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {

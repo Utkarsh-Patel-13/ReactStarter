@@ -36,9 +36,9 @@ class Tours extends Component {
     render() {
         if (this.state.loading) {
             return (
-                <main className="p-2 m-10 rounded border bg-white text-black font-light">
+                <section className=" m-4">
                     <Loading />
-                </main>
+                </section>
             );
         }
         return (

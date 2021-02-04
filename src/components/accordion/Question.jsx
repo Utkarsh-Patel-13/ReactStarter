@@ -15,15 +15,9 @@ class SingleQuestion extends Component {
         });
     };
 
-    // shadowToggle = () => {
-    //     if (!this.state.showInfo) {
-    //         return "dark-shadow";
-    //     }
-    // };
-
     render() {
         return (
-            <div className={this.shadowToggle}>
+            <div>
                 <article className="question m-6 p-2 font-bold">
                     <header className="font-semibold">
                         <h4>{this.state.title}</h4>
@@ -38,7 +32,9 @@ class SingleQuestion extends Component {
                             )}
                         </button>
                     </header>
-                    {this.state.showInfo && <p>{this.state.info}</p>}
+                    {this.state.showInfo && (
+                        <p className="font-normal">{this.state.info}</p>
+                    )}
                 </article>
             </div>
         );

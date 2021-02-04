@@ -41,7 +41,7 @@ const SingleList = ({ items }) => {
                 const { id, title, img, desc, price } = menuItem;
 
                 return (
-                    <article key={id} className="menu-item">
+                    <article key={id} className="menu-item m-3">
                         <img src={img} alt={title} className="menu-photo" />
                         <div className="item-info">
                             <header>

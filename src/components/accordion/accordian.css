@@ -1,4 +1,6 @@
 .question {
+    min-width: 60vw;
+    max-width: 60vw;
     padding: 1rem 1.5rem;
     border: 2px solid var(--clr-grey-special);
     margin-bottom: 1rem;
@@ -39,8 +41,4 @@
     margin-left: 1rem;
     align-self: center;
     min-width: 2rem;
-}
-
-.dark-shadow {
-    box-shadow: 0 5px 15px rgba(255, 0, 0, 1);
 }

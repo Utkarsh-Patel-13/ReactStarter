@@ -19,10 +19,10 @@ class List extends Component {
                                 <h4>{name}</h4>
                                 <p>{age} years</p>
                                 <button
-                                    className="bg-red-500 rounded-md text-lg w-10 font-bold"
+                                    className="bg-red-500 rounded-md p-1 text-sm m-1"
                                     onClick={() => this.props.removeEntry(id)}
                                 >
-                                    -
+                                    Remove
                                 </button>
                             </div>
                         </article>
