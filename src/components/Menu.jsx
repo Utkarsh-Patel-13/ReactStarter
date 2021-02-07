@@ -17,6 +17,7 @@ class Menu extends Component {
         { key: 5, name: "FoodMenu", endpoint: "foodmenu" },
         { key: 6, name: "Tabs", endpoint: "tabs" },
         // { key: 7, name: "Slider", endpoint: "slider" },
+        { key: 8, name: "LoremIpsum", endpoint: "lorem" },
     ];
 
     handleSelect(key, projCategory) {

@@ -8,6 +8,7 @@ import Accordion from "./accordion/Accordian";
 import FoodMenu from "./foodmenu/FoodMenu";
 import Tabs from "./tabs/Tabs";
 // import Slider from "./slider/Slider";
+import Lorem from "./loremipsum/Lorem";
 
 class Main extends Component {
     state = {};
@@ -30,6 +31,7 @@ class Main extends Component {
             foodmenu: <FoodMenu />,
             tabs: <Tabs />,
             // slider: <Slider />,
+            lorem: <Lorem />,
         };
 
         return projects[currentMode];
