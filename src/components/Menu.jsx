@@ -18,7 +18,8 @@ class Menu extends Component {
         { key: 6, name: "Tabs", endpoint: "tabs" },
         // { key: 7, name: "Slider", endpoint: "slider" },
         { key: 8, name: "LoremIpsum", endpoint: "lorem" },
-        { key: 9, name: "Color Generator", endpoint: "color" },
+        { key: 9, name: "ColorGenerator", endpoint: "color" },
+        { key: 10, name: "Grocery", endpoint: "grocery" },
     ];
 
     handleSelect(key, projCategory) {
@@ -28,22 +29,21 @@ class Menu extends Component {
 
     render() {
         return (
-            <div className="p-10 bg-indigo-800">
-                <div className="text-lg">
-                    <Nav activeKey={this.state.key}>
-                        {this.links.map((link) => (
-                            <NavItem
-                                key={link.key}
-                                title={link.name}
-                                onClick={() =>
-                                    this.handleSelect(link.key, link.endpoint)
-                                }
-                            >
-                                <button>{link.name}</button>
-                            </NavItem>
-                        ))}
-                    </Nav>
-                </div>
+            <div className="p-10 bg-indigo-800 text-lg">
+                <Nav activeKey={this.state.key}>
+                    {this.links.map((link) => (
+                        <NavItem
+                            key={link.key}
+                            title={link.name}
+                            onClick={() =>
+                                this.handleSelect(link.key, link.endpoint)
+                            }
+                            className="inline-block p-2"
+                        >
+                            <button>{link.name}</button>
+                        </NavItem>
+                    ))}
+                </Nav>
             </div>
         );
     }

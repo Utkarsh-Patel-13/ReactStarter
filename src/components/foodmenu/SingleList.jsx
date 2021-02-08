@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 
 // Class Component
 // class SingleList extends Component {
@@ -34,6 +34,8 @@ import React, { Component } from "react";
 // }
 
 // Functional Component
+import React from "react";
+
 const SingleList = ({ items }) => {
     return (
         <div className="section-center">
