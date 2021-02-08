@@ -9,6 +9,7 @@ import FoodMenu from "./foodmenu/FoodMenu";
 import Tabs from "./tabs/Tabs";
 // import Slider from "./slider/Slider";
 import Lorem from "./loremipsum/Lorem";
+import ColorGenerator from "./colorgenerator/Color";
 
 class Main extends Component {
     state = {};
@@ -32,6 +33,7 @@ class Main extends Component {
             tabs: <Tabs />,
             // slider: <Slider />,
             lorem: <Lorem />,
+            color: <ColorGenerator />,
         };
 
         return projects[currentMode];
